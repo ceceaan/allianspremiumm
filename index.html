@@ -12,18 +12,19 @@
     <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <style>
-        body {
-            background-image: url('okk.jpg'); /* Ganti URL_GAMBAR_ANDA dengan link gambar Anda */
+        body {https
+            background-image: url('https://i.pinimg.com/736x/82/9e/ba/829eba95b4cacde532a8d41c18035a15.jpg'); /* URL gambar */
             background-size: cover; /* Mengatur agar gambar menutupi seluruh latar belakang */
             background-position: center; /* Mengatur posisi gambar berada di tengah */
             background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+            background-attachment: fixed; /* Membuat background tetap saat scroll */
         }
     </style>
 </head>
 <body>
-    <div class="relative flex size-full min-h-screen flex-col bg-[#111a22] dark justify-between group/design-root overflow-x-hidden">
+    <div class="relative flex size-full min-h-screen flex-col bg-transparent dark justify-between group/design-root overflow-x-hidden">
         <div>
-            <div class="flex items-center bg-[#111a22] p-4 pb-2 justify-end">
+            <div class="flex items-center bg-transparent p-4 pb-2 justify-end">
                 <div class="flex w-12 items-center justify-end">
                     <button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 bg-transparent text-white gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0">
                         <div class="text-white" data-icon="ShoppingCart" data-size="24px" data-weight="regular">
@@ -35,13 +36,16 @@
                 </div>
             </div>
 
- <div class="flex justify-center pt-4">
-  <a href="next.html">
-    <button class="bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-medium">
-      Read Before Buying
-    </button>
-  </a>
-</div>
+            <div class="flex justify-center pt-4">
+                <a href="next.html">
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-medium">
+                        Read Before Buying
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
 
 
 
